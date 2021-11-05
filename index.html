@@ -1,0 +1,436 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Nafis SAMB Loker</title>
+
+    <!-- Load external CSS styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <h1>My awesome space</h1>
+    <div class="cont">
+        <div class="container">
+            <div style="width: 18rem;">
+                <img src="img3.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop-img1">
+                <div class="top-left">FOTOGRAFER</div>
+                <a href="#form-daftar" class="bottom-right2"> Apply</a>
+            </div>
+        </div>
+        <div class="container">
+            <div style="width: 18rem;">
+                <img src="img8.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop-img2">
+                <div class="bottom-right">WEB DEVELOPER</div>
+                <a href="#form-daftar" class="bottom-right2"> Apply</a>
+            </div>
+        </div>
+        <div class="container">
+            <div style="width: 18rem;">
+                <img src="img10.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop-img3">
+                <div class="centered">DRIVER</div>
+                <a href="#form-daftar" class="bottom-right2"> Apply</a>
+            </div>
+        </div>
+    </div>
+    <div class="cont">
+        <div class="container">
+            <div style="width: 18rem;">
+                <img src="img7.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop-img4">
+                <div style="color:black;" class="top-left">UI / UX DESIGN</div>
+                <a href="#form-daftar" class="bottom-right2"> Apply</a>
+            </div>
+        </div>
+        <div class="container">
+            <div style="width: 18rem;">
+                <img src="img6.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop-img5">
+                <div class="top-left">TRAINER</div>
+                <a href="#form-daftar" class="bottom-right2"> Apply</a>
+            </div>
+        </div>
+        <div class="container">
+            <div style="width: 18rem;">
+                <img src="img9.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop-img6">
+                <div class="top-left">TEACHER</div>
+                <a href="#form-daftar" class="bottom-right2"> Apply</a>
+            </div>
+        </div>
+    </div>
+    <div class="cont">
+        <div class="container">
+            <div style="width: 18rem;">
+                <img src="img14.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop-img7">
+                <div class="top-left">BUILDER</div>
+                <a href="#form-daftar" class="bottom-right2"> Apply</a>
+            </div>
+        </div>
+        <div class="container">
+            <div style="width: 18rem; ">
+                <img src="img17.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop-img8">
+                <div style="color:#F0B917;" class="bottom-right">ACCOUNTANT</div>
+                <a href="#form-daftar" class="bottom-right2"> Apply</a>
+            </div>
+        </div>
+        <div class="container">
+            <div style="width: 18rem;">
+                <img src="img11.jpg" class="card-img-top" alt="..." data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop-img9">
+                <div style="color:#F0B917;" class="centered">MARKETING</div>
+                <a href="#form-daftar" class="bottom-right2"> Apply</a>
+            </div>
+        </div>
+    </div>
+    <div id="form-daftar">
+        <h3>Form Pendaftaran</h3>
+        <form class="form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="inputnama">Nama Lengkap</label>
+                    <input type=" text" class="form-control" id="inputnama" placeholder="Input Nama Lengkap">
+                </div>
+                <div class="form-group">
+                    <label for="inputTelp">No Telp</label>
+                    <input type="number" class="form-control" id="inputTelp" placeholder="Yang bisa di telp">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputWa">No Whatshapp</label>
+                <input type="number" class="form-control" id="inputWa" placeholder="Yang dipakai Wa">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="inputPosisi">Posisi</label>
+                    <select class="form-control" id="inputPosisi">
+                        <option>FOTOGRAFER</option>
+                        <option>WEB DEVELOPER</option>
+                        <option>DRIVER</option>
+                        <option>UI/ UX DESIGN</option>
+                        <option>TRAINER</option>
+                        <option>TEACHER</option>
+                        <option>BUILDER</option>
+                        <option>ACCOUNTANT</option>
+                        <option>MARKETING</option>
+                    </select>
+                    <!-- <input type="text" class="form-control" id="inputPosisi" placeholder="Posisi yang dilamar"> -->
+                </div>
+                <br>
+            </div>
+            <div class="form-group">
+            </div>
+            <button onclick="onSub()" type="submit"
+                style="background-color: #33dfc8; border: none; border-radius: 8px;width: 10vw; height: 7vh;">Daftar</button>
+        </form>
+    </div>
+
+    <!-- cek data -->
+    <!-- <div>
+        <button onclick="showUser()" type="submit" >klik untuk liat data</button>
+        <table id="table-data">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>No Telp</th>
+                    <th>No Wa</th>
+                    <th>Posisi</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div> -->
+
+    <!-- Button trigger modal
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Launch static backdrop modal
+    </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop-img1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">POSISI : FOTOGRAFER</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div style="width: 18rem;">
+                            <img src="img3.jpg" class="card-img-top2" alt="...">
+                            <div class="top-left">FOTOGRAFER</div>
+                            <a href="#form-daftar" class="bottom-right2"> Apply</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop-img2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">POSISI : WEB DEVELOPER</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div style="width: 18rem;">
+                            <img src="img8.jpg" class="card-img-top" alt="...">
+                            <div class="bottom-right">WEB DEVELOPER</div>
+                            <a href="#form-daftar" class="bottom-right2"> Apply</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop-img3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">POSISI : DRIVER</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div style="width: 18rem;">
+                            <img src="img10.jpg" class="card-img-top2" alt="...">
+                            <div class="centered">DRIVER</div>
+                            <a href="#form-daftar" class="bottom-right2"> Apply</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop-img4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">POSISI : UI / UX DESIGN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div style="width: 18rem;">
+                            <img src="img7.jpg" class="card-img-top2" alt="...">
+                            <div style="color:black;" class="top-left">UI / UX DESIGN</div>
+                            <a href="#form-daftar" class="bottom-right2"> Apply</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop-img5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">POSISI : TRAINER</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div style="width: 18rem;">
+                            <img src="img6.jpg" class="card-img-top2" alt="...">
+                            <div class="top-left">TRAINER</div>
+                            <a href="#form-daftar" class="bottom-right2"> Apply</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop-img6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">POSISI : TEACHER</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div style="width: 18rem;">
+                            <img src="img9.jpg" class="card-img-top2" alt="...">
+                            <div class="top-left">TEACHER</div>
+                            <a href="#form-daftar" class="bottom-right2"> Apply</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop-img7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">POSISI : BUILDER</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div style="width: 18rem;">
+                            <img src="img14.jpg" class="card-img-top2" alt="...">
+                            <div class="top-left">BUILDER</div>
+                            <a href="#form-daftar" class="bottom-right2"> Apply</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop-img8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">POSISI : ACCOUNTANT</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div style="width: 18rem; ">
+                            <img src="img17.jpg" class="card-img-top2" alt="...">
+                            <div style="color:#F0B917;" class="bottom-right">ACCOUNTANT</div>
+                            <a href="#form-daftar" class="bottom-right2"> Apply</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop-img9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">POSISI : MARKETING</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div style="width: 18rem;">
+                            <img src="img11.jpg" class="card-img-top2" alt="...">
+                            <div style="color:#F0B917;" class="centered">MARKETING</div>
+                            <a href="#form-daftar" class="bottom-right2"> Apply</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Load external JavaScript -->
+    <script src="./scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script var myModal=document.getElementById('myModal') var myInput=document.getElementById('myInput')
+        myModal.addEventListener('shown.bs.modal', function () { myInput.focus() })>
+        </script>
+    <script>
+
+        let onSub = () => {
+            let nama = document.getElementById("inputnama").value
+            let noTelp = document.getElementById("inputTelp").value
+            let noWa = document.getElementById("inputWa").value
+            let posisi = document.getElementById("inputPosisi").value
+            // console.log(nama, noTelp, noWa, posisi)
+
+            alert(`
+            Form Pendaftaran :
+
+                Nama Lengkap : ${nama}
+                No Telp : ${noTelp}
+                No Wa : ${noWa}
+                Posisi : ${posisi}
+
+            Terimakasih atas lamaran anda, ditunggu kabar baiknya ya !`)
+
+            users.post(new Pelamar(nama, noTelp, noWa, posisi))
+            showUser(users)
+
+        }
+        
+        console.log(users)
+
+        let showUser = (data) => {
+            let tbody = document.getElementById("table-data").tBodies[0]
+            let res = ''
+
+            users.forEach(item => {
+                res += `
+                <tr>
+                    <td><center>${item.nama}</center></td>
+                    <td><center>${item.noTelp}</center></td>
+                    <td><center>${item.noWa}</center></td>
+                    <td><center>${item.posisi}</center></td>
+                </tr>
+                `
+            })
+
+            tbody.innerHTML = res
+
+        }
+
+        showUser(users)
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>

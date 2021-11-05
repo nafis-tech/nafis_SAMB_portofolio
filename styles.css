@@ -1,0 +1,120 @@
+/* Place your CSS styles in this file */
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+.card-img-top {
+    width: 400px;
+    height: 600px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top2 {
+  width: 410px;
+  height: 610px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* Container holding the image and the text */
+.container {
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  color: white;
+  font-size: 50px;
+  font-weight: 20px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: 70px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  top: 60%;
+  left: 60px;
+  color: white;
+  font-size: 50px;
+  font-weight: 70px;
+}
+.bottom-right2 {
+  position: absolute;
+  right: 25px;
+  top: 85%;
+  width: 70px;
+  height: 30px;
+  border: none;
+  color: black;
+  text-decoration:none;
+  border-radius: 8px;
+  background-color: #48C0D3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  top: 85%;
+  left: 40px;
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: #48C0D3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+#form-daftar {
+    width: 50%;
+    margin:10vw;
+    margin-left: 25vw;
+    margin-top: 5vh;
+    padding: 3vw;
+    background-color: #20a789;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
